@@ -180,11 +180,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\Escola\\SegundoSemestre\\Jogos\\ProjectJogo\\ProjectJogo\\ProjectJogo.csproj",
+      "projectUniqueName": "P:\\Escola\\SegundoSemestre\\Jogos\\FirstMonoGame\\ProjectJogo\\ProjectJogo.csproj",
       "projectName": "ProjectJogo",
-      "projectPath": "P:\\Escola\\SegundoSemestre\\Jogos\\ProjectJogo\\ProjectJogo\\ProjectJogo.csproj",
+      "projectPath": "P:\\Escola\\SegundoSemestre\\Jogos\\FirstMonoGame\\ProjectJogo\\ProjectJogo.csproj",
       "packagesPath": "C:\\Users\\mains\\.nuget\\packages\\",
-      "outputPath": "P:\\Escola\\SegundoSemestre\\Jogos\\ProjectJogo\\ProjectJogo\\obj\\",
+      "outputPath": "P:\\Escola\\SegundoSemestre\\Jogos\\FirstMonoGame\\ProjectJogo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

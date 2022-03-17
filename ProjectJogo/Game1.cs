@@ -8,6 +8,7 @@ namespace ProjectJogo
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        private KeyboardManager km;
 
         public Game1()
         {
@@ -19,7 +20,7 @@ namespace ProjectJogo
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            km = new KeyboardManager();
             base.Initialize();
         }
 
@@ -35,6 +36,7 @@ namespace ProjectJogo
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            km.Update();
             // TODO: Add your update logic here
 
             base.Update(gameTime);
