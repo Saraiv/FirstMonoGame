@@ -35,9 +35,10 @@ namespace ProjectJogo
             Keys[] pressedKeys = state.GetPressedKeys();
             foreach (Keys k in pressedKeys)
             {
-                if (keyAndState.ContainsKey(k))
+                if (!keyAndState.ContainsKey(k))
                 {
                     keyAndState.Add(k, KeyState.PRESSED);
+
                 }
                 else
                 {
